@@ -34,11 +34,7 @@ class MemberCard extends HTMLElement {
       grid-template-rows: 1fr auto;
       width: 100%;
       box-sizing: border-box;
-      width: 225px;
       height: 100%;
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
-      width: fit-content;
       padding: 6px;
       background-color: #bb7c6a40;
       border-radius: 4px;
