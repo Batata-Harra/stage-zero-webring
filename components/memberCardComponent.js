@@ -25,7 +25,7 @@ class MemberCard extends HTMLElement {
       border-style: none;
     }
     
-    figure {
+    .card__container__figure {
       margin-block-start: 0;
       margin-block-end: 0;
       margin-inline-start: 0;
@@ -34,9 +34,6 @@ class MemberCard extends HTMLElement {
       grid-template-rows: 1fr auto;
       width: 100%;
       box-sizing: border-box;
-    }
-    
-    .card__container__figure {
       width: 225px;
       height: 100%;
       width: -webkit-fit-content;
