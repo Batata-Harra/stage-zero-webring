@@ -30,6 +30,10 @@ class MemberCard extends HTMLElement {
       margin-block-end: 0;
       margin-inline-start: 0;
       margin-inline-end: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      width: 100%;
+      box-sizing: border-box;
     }
     
     .card__container__figure {
