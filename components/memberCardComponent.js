@@ -14,7 +14,7 @@ class MemberCard extends HTMLElement {
     const memberRole = this.getAttribute('member-role')
     return `
     <style>
-    /* Featured Batata Harra */
+    /* Featured Stage Zero */
     a {
       background-color: transparent;
       color: inherit;
